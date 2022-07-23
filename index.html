@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--
+    Developed by: Leandro Silva
+    Date: 23.07.2022
+    All rights reserved
+-->
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- swiper css -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title> Leandro Silva</title>
+    </head>
+
+    <body>
+
+        <!-- header -->
+        <header class="header" id="header">
+
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><h3>LS_</h3></a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                    
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link"><i class='bx bx-home-alt'></i></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link"><i class='bx bxs-user'></i></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link"><i class='bx bx-book'></i></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link"><i class='bx bx-image-alt'></i></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link"><i class='bx bx-message-square-dots'></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- theme change button -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+            </nav>
+
+        </header>
+
+        <!-- main -->
+        <main class="main">
+
+            <!-- home -->
+            <section class="home section" id="home">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Olá, me chamo</span>
+                        <h1 class="home__name"></h1>
+                        <h3 class="home__education">Desenvolvedor Frontend | UI/UX Design</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/curriculo.pdf" class="button button--ghost">Download CV</a>
+                            <a href="#about" class="button">Sobre Mim</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/perfil.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/leandro-d-silva/" target="_blank" class="home__social-link"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://github.com/leandrosilva3" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
+                        <a href="https://t.me/leandrosilva17" target="_blank" class="home__social-link"><i class='bx bxl-telegram'></i></a>
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon'></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+
+                </div>
+
+            </section>
+            
+            <!-- about -->
+            <section class="about section" id="about">
+                <span class="section__subtitle">Introdução</span>
+                <h2 class="section__title">Sobre Mim</h2>
+
+                <div class="about__container container grid">
+                    
+                    <img src="assets/img/about2.jpeg" alt="" class="about__img">
+                    
+                    <div class="about__data">
+
+                        <p class="about__description">
+                            Constate aprendiz, fascinado e amante de tecnologia. Atualmente sou um Engenheiro
+                            de Software em formação, cursando o 5º semestre na Universidade Federal do Ceará -
+                            Campus de Russas. Sou um profissional apaixonado em desenvolvimento Front-End e
+                            UI/UX Design, tentando sempre ser criativo e voltado para os resultados, estando
+                            há 3 anos como estudante de tecnologia, buscando aplicar todos conceitos aprendidos.
+                        </p>
+
+                        <a href="#contact" class="button">Entrar em Contato</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- skills -->
+            <section class="skills section" id="skills">
+
+                <span class="section__subtitle">Experiência</span>
+                <h2 class="section__title">Minhas Habilidades</h2>
+
+                <div class="skills__container container grid">
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Desenvolvimento Frontend</h3>
+
+                        <div class="skills__box">
+
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Básico</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">UI/UX Design</h3>
+
+                        <div class="skills__box">
+
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Prototipagem</h3>
+                                        <span class="skills__level">Avançado</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Usabilidade</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__group">
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__level">Intermediário</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">Liderança e Design</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class='bx bxs-badge-check'></i>
+                                        <div>
+                                            <h3 class="skills__name">Necessidades do usuário</h3>
+                                            <span class="skills__level">Intermediário</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio section" id="portfolio">
+
+                <span class="section__subtitle">Portfólio</span>
+                <h2 class="section__title">Meus Projetos</h2>
+
+                <div class="portfolio__filters">
+                    <span class="portfolio__item active-portfolio" data-filter='all'>All</span>
+                    <span class="portfolio__item" data-filter='.web'>Web</span>
+                    <span class="portfolio__item" data-filter='.uiux'>UI/UX Design</span>
+                </div>
+
+                <div class="portfolio__container container grid">
+
+                    <div class="portfolio__card mix web">
+                        <img src="assets/img/project1.png" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Pokédex</h3>
+                        <a href="#" class="portfolio__button">
+                            Indispoível<i class='bx bx-right-arrow-alt portfolio__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio__card mix uiux">
+                        <img src="assets/img/project1.png" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Em breve</h3>
+                        <a href="#" class="portfolio__button">
+                            Indispoível<i class='bx bx-right-arrow-alt portfolio__icon'></i>
+                        </a>
+                    </div>
+
+                    <!--
+
+                    <div class="portfolio__card mix web">
+                        <img src="assets/img/project1.png" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Em breve</h3>
+                        <a href="#" class="portfolio__button">
+                            Indispoível<i class='bx bx-right-arrow-alt portfolio__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio__card mix uiux">
+                        <img src="assets/img/project1.png" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Em breve</h3>
+                        <a href="#" class="portfolio__button">
+                            Indispoível<i class='bx bx-right-arrow-alt portfolio__icon'></i>
+                        </a>
+                    </div>
+
+                    <div class="portfolio__card mix web">
+                        <img src="assets/img/project1.png" alt="" class="portfolio__img">
+                        <h3 class="portfolio__title">Em breve</h3>
+                        <a href="#" class="portfolio__button">
+                            Indispoível<i class='bx bx-right-arrow-alt portfolio__icon'></i>
+                        </a>
+                    </div>
+                
+                -->
+
+                </div>
+
+            </section>
+
+            <!-- contact -->
+            <section class="contact section" id="contact">
+                
+                <span class="section__subtitle">Entre em Contato</span>
+                <h2 class="section__title">Contatos</h2>
+
+                <div class="contact__container container grid">
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Fale comigo</h3>
+
+                        <div class="contact__info">
+
+                            <div class="contact__card">
+                                <i class='bx bx-mail-send contact__card-icon'></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">leandroqwert02@gmail.com</span>
+                                <a href="mailto:leandroqwert02@gmail.com" target="_blank" class="contact__button">
+                                    Entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon'></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">(88) 9 9344.2974</span>
+                                <a href="https://contate.me/leandro_silva" target="_blank" class="contact__button">
+                                    Entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-telegram contact__card-icon'></i>
+                                <h3 class="contact__card-title">Telegram</h3>
+                                <span class="contact__card-data">t.me/leandrosilva17</span>
+                                <a href="" target="_blank" class="contact__button">
+                                    Entrar em contato <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            
+            <div class="footer__container container">
+
+                <h1 class="footer__title">LS_</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer__link">Habilidades</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/leandrosilva.1703" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/leandro_siilva17/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Leandro Silva. All rigths reserved
+                </span>
+
+            </div>
+
+        </footer>
+
+        <!-- scrollreveal -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!-- swiper js -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-- mixitup filter -->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!-- main -->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
+</html>
