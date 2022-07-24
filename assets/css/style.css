@@ -735,6 +735,64 @@ body.light-theme {
 
 }
 
+@media screen and (max-width: 360px) {
+
+    .nav__menu {
+        padding: 1rem 1.5rem;
+    }
+
+    .home__buttons {
+        flex-direction: column;
+    }
+
+    .home__handle {
+        width: 150px;
+        height: 253px;
+    }
+
+    .home__img {
+        width: 130px;
+    }
+
+    .skills__box {
+        column-gap: 1rem;
+    }
+
+    .skills__name {
+        font-size: var(--small-font-size);
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+
+    .nav__menu {
+        padding: 1rem 1.5rem;
+    }
+
+    .home__buttons {
+        flex-direction: column;
+    }
+
+    .home__handle {
+        width: 150px;
+        height: 180px;
+    }
+
+    .home__img {
+        width: 160px;
+    }
+
+    .skills__box {
+        column-gap: 1rem;
+    }
+
+    .skills__name {
+        font-size: var(--smaller-font-size);
+    }
+
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
 
